@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website - Kong'o Euticus</title>
+    <meta
+      name="description"
+      content="Kong'o Euticus - Full Stack (MERN) Developer & Scientist"
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>"
+    />
+
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Your existing CSS goes here -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bg-animation"></div>
+
+    <!-- Mobile Menu Toggle -->
+    <input type="checkbox" id="mobile-menu-toggle" class="mobile-menu-toggle" />
+    <label for="mobile-menu-toggle" class="mobile-menu-btn">
+      <i class="fas fa-bars"></i>
+    </label>
+
+    <!-- Sidebar Overlay -->
+    <label for="mobile-menu-toggle" class="sidebar-overlay"></label>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <label for="mobile-menu-toggle" class="close-btn">
+        <i class="fas fa-times"></i>
+      </label>
+
+      <div class="profile-section">
+        <div class="profile-image-container">
+          <div class="profile-image">
+            <img
+              src="public/yuti image.jpg"
+              alt="Yuti"
+              class="profile-image"
+            />
+          </div>
+          <div class="profile-status"></div>
+        </div>
+
+        <div class="profile-info">
+          <h3 class="profile-name">Kong'o Euticus</h3>
+          <p class="profile-title">Laboratory Scientist</p>
+          <p class="profile-tagline">Full Stack Developer</p>
+        </div>
+      </div>
+
+      <nav class="nav-links">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#interests" class="nav-link">Interests</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- Header -->
+      <header class="header">
+        <h1 class="logo">KONG'O EUTICUS</h1>
+        <div class="header-controls">
+          <a
+            href="public/RESUME CV.pdf"
+            target="_blank"
+            class="resume-link"
+          >
+            <i class="fas fa-download"></i> Resume
+          </a>
+        </div>
+      </header>
+
+      <!-- Hero Section -->
+      <section id="home" class="hero">
+        <div class="hero-content">
+          <div class="hero-text">
+            <p class="hero-greeting">Greetings, welcome to my portfolio</p>
+            <h1 class="hero-title">
+              Full stack developer & Clinical Scientist
+            </h1>
+            <p class="hero-description">
+             I am a laboratory scientist from the University of Nairobi passionate about health, research and community well-being. Besides this, am a full stack developer who provides solutions in tech industry.
+            </p>
+
+            <div class="hero-cta">
+              <a href="#contact" class="cta-button cta-primary">
+                <i class="fas fa-envelope"></i> Get In Touch
+              </a>
+              <a href="#projects" class="cta-button cta-secondary">
+                <i class="fas fa-eye"></i> View My Work
+              </a>
+            </div>
+
+            <div class="social-links">
+              <a
+                href="https://x.com/euticus_kong"
+                class="social-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Twitter"
+              >
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a
+                href="https://github.com/yuti136"
+                class="social-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="GitHub"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/kong-o-euticus-448b702a5/"
+                class="social-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="LinkedIn"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a
+                href="https://www.facebook.com/share/17rfWpfNPf/"
+                class="social-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Facebook"
+              >
+                <i class="fab fa-facebook"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="section">
+        <div class="section-header">
+          <p class="small-heading">About Me</p>
+          <h2 class="heading">Who I Am</h2>
+          <p class="section-description">
+            I am skilled in laboratory diagnostics, scientific research and health communication.
+            Beyond this, I build solutions through websites and bring end to end performing platforms.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card">
+            <h4>
+              <i class="fas fa-code"></i>
+              Developer
+            </h4>
+            <p>
+              With 3 years of experience in full-stack development, I specialize
+              in creating scalable web applications using modern technologies
+              like React.js, Next.js, and Node.js. I'm passionate about writing
+              clean, efficient code and following best practices.
+            </p>
+          </div>
+
+          <div class="about-card">
+            <h4>
+              <i class="fas fa-palette"></i>
+              Designer
+            </h4>
+            <p>
+              A background in website development has made me come up with scalable paltforms which enhance service delivery.
+              I am passionate in coming up with solutions tp problems via technology.
+            </p>
+          </div>
+
+          <div class="about-card">
+            <h4>
+              <i class="fas fa-cogs"></i>
+              Scientist
+            </h4>
+            <p>
+              I'm passionate about health, diagnostics and research. 
+              I believe in the power of science to improve lives and transform communities.
+              My goal is to contribute to global health through innovaive research, continuous learning and leadership in laboratory medicine.
+            </p>
+          </div>
+
+          <div class="about-card">
+            <h4>
+              <i class="fas fa-heart"></i>
+              Researcher
+            </h4>
+            <p>
+              Research fulfills exploration, questioning and uncovering of answers that make real difference in peoples lives. 
+              Through research, I not only build knowledge but also grow personally.
+              This devlops patience, creativity and a deepwr appreciation for the role of science in 
+              improving health and wellbeing.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education Section -->
+      <section id="education" class="section">
+        <div class="section-header">
+          <p class="small-heading">Education</p>
+          <h2 class="heading">Academic Background</h2>
+        </div>
+
+        <div class="education-card">
+          <div class="education-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <h3 class="education-degree">Bachelor of Medical Laboratory Science and Technology</h3>
+          <p class="education-school">University of Nairobi</p>
+          <p class="education-year">Laboratory Scientist • 2018 - 2024</p>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="section">
+        <div class="section-header">
+          <p class="small-heading">Skillset</p>
+          <h2 class="heading">My Specialty</h2>
+          <p class="section-description">
+            Over the past three years, I've had the opportunity to learn and
+            master a variety of tools and programming languages. Most of which I apply
+            include:
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-item">
+            <i class="fab fa-html5 skill-icon"></i>
+            <p class="skill-label">HTML5</p>
+          </div>
+          <div class="skill-item">
+            <i class="fab fa-css3-alt skill-icon"></i>
+            <p class="skill-label">CSS3</p>
+          </div>
+          <div class="skill-item">
+            <i class="fab fa-js-square skill-icon"></i>
+            <p class="skill-label">JavaScript</p>
+          </div>
+          <div class="skill-item">
+            <i class="fab fa-react skill-icon"></i>
+            <p class="skill-label">React.js</p>
+          </div>
+          <div class="skill-item">
+            <i class="fab fa-node-js skill-icon"></i>
+            <p class="skill-label">Node.js</p>
+          </div>
+          <div class="skill-item">
+            <i class="fab fa-sass skill-icon"></i>
+            <p class="skill-label">Sass</p>
+          </div>
+          <div class="skill-item">
+            <i class="fab fa-git-alt skill-icon"></i>
+            <p class="skill-label">Git</p>
+          </div>
+          <div class="skill-item">
+            <i class="fab fa-github skill-icon"></i>
+            <p class="skill-label">GitHub</p>
+          </div>
+          <div class="skill-item">
+            <i class="fab fa-figma skill-icon"></i>
+            <p class="skill-label">Figma</p>
+          </div>
+          <div class="skill-item">
+            <i class="fas fa-database skill-icon"></i>
+            <p class="skill-label">MongoDB</p>
+          </div>
+          <div class="skill-item">
+            <i class="fas fa-fire skill-icon"></i>
+            <p class="skill-label">Firebase</p>
+          </div>
+          <div class="skill-item">
+            <i class="fas fa-code skill-icon"></i>
+            <p class="skill-label">TypeScript</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience Section -->
+      <section id="experience" class="section">
+        <div class="section-header">
+          <p class="small-heading">Experience</p>
+          <h2 class="heading">Work Experience</h2>
+        </div>
+
+        <div class="experience-timeline">
+          <div class="experience-item">
+            <time class="experience-date">January 2025 - June 2025</time>
+            <h3 class="experience-title">Student Fellow at Power Learn Project</h3>
+            <h4 class="experience-role">Mentor</h4>
+            <p class="experience-description">
+              As a Student Fellow at Power Learn Project, I mentor
+              fellows and contribute to their development through
+              guidance and support in project management, technical skills, and
+              career planning.
+            </p>
+            <ul class="experience-tasks">
+              <li>
+                Guided teams in creating scalable web applications using
+                React.js and Next.js
+              </li>
+              <li>
+                Provided technical support and feedback on code quality and
+                project architecture
+              </li>
+              <li>
+                Facilitated workshops on best practices in React.js development
+                and state management
+              </li>
+            </ul>
+          </div>
+
+          <div class="experience-item">
+            <time class="experience-date">June 2025 - August 2025</time>
+            <h3 class="experience-title">
+              Laboratort Scientist at Kenyatta National Hospital
+            </h3>
+            <h4 class="experience-role">Leader</h4>
+            <p class="experience-description">
+             Performed laboratory diagnostics centered at patient wellness.
+             Ensured efficient collaboration and comunication delivery.
+            </p>
+            <ul class="experience-tasks">
+              <li>
+                Performed routine and specialized laboratory tests in various departments.
+                Handled, labelled and processed different types of clinical specimens
+              </li>
+              <li>
+                Operated and maintained laboratory instruments and equipments.
+              </li>
+              <li>
+                Participated in teamwork, reporting and effective communication within the lab environment.
+                Maintained confidentiality and professionalism in handling patient information.
+              </li>
+            </ul>
+          </div>
+
+          <div class="experience-item">
+            <time class="experience-date">March 2023 - September 2023</time>
+            <h3 class="experience-title">
+              Software Engineer Intern
+            </h3>
+            <h4 class="experience-role">Intern</h4>
+            <p class="experience-description">
+              Gained hands-on experience with JavaScript and peer mentoring.
+              Applied UX design principles and contributed to team projects.
+            </p>
+            <ul class="experience-tasks">
+              <li>
+                Built and maintained features for web applications using
+                React.js
+              </li>
+              <li>
+                Participated in code reviews and contributed to improving
+                codebase quality
+              </li>
+              <li>
+                Worked on integrating APIs and developing dynamic user
+                interfaces with Next.js
+              </li>
+            </ul>
+          </div>
+
+          <div class="experience-item">
+            <time class="experience-date">May 2023 - August 2023</time>
+            <h3 class="experience-title">Frontend Mentee</h3>
+            <h4 class="experience-role">Mentee</h4>
+            <p class="experience-description">
+              Focused on creating intuitive user interfaces and was recognized
+              as the Best Project Pitch Winner.
+            </p>
+            <ul class="experience-tasks">
+              <li>
+                Developed responsive UI components using React.js and Tailwind
+                CSS
+              </li>
+              <li>
+                Applied UX principles to enhance user experience and interface
+                design
+              </li>
+              <li>
+                Presented and pitched project ideas, demonstrating effective
+                communication skills
+              </li>
+            </ul>
+          </div>
+
+          <div class="experience-item">
+            <time class="experience-date">March 2023 - June 2023</time>
+            <h3 class="experience-title">
+              React Developer Intern
+            </h3>
+            <h4 class="experience-role">Intern</h4>
+            <p class="experience-description">
+              Contributed to an event ticketing project, applying React.js and
+              Tailwind CSS.
+            </p>
+            <ul class="experience-tasks">
+              <li>
+                Developed and maintained features for a ticketing system using
+                React.js
+              </li>
+              <li>
+                Collaborated with the team to ensure efficient and scalable
+                front-end development
+              </li>
+              <li>
+                Utilized Tailwind CSS for styling and implementing responsive
+                design principles
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="section">
+        <div class="section-header">
+          <p class="small-heading">My Projects</p>
+          <h2 class="heading">Recent Projects</h2>
+          <p class="section-description">
+            I have experience working on multiple projects, some of which I have
+            highlighted below. Each project showcases different aspects of my
+            technical skills and problem-solving abilities.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <a
+            href="https://yuti136.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="project-card"></a>
+        </div>
+      </section>
+
+      <!-- Interests Section -->
+      <section id="interests" class="section">
+        <div class="section-header">
+          <p class="small-heading">Interests</p>
+          <h2 class="heading">What Drives Me</h2>
+          <p class="section-description">
+            Beyond coding, I'm passionate about various aspects of technology
+            and innovation that shape our digital future.
+          </p>
+        </div>
+
+        <div class="interests-grid">
+          <div class="interest-item">
+            <div class="interest-icon">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <h4 class="interest-title">Web Development</h4>
+            <p class="interest-description">
+              Exploring modern frameworks, performance optimization, and
+              creating exceptional user experiences through clean, efficient
+              code.
+            </p>
+          </div>
+
+          <div class="interest-item">
+            <div class="interest-icon">
+              <i class="fas fa-robot"></i>
+            </div>
+            <h4 class="interest-title">AI & Machine Learning</h4>
+            <p class="interest-description">
+              Fascinated by artificial intelligence applications and how they
+              can be integrated into web applications to solve real-world
+              problems.
+            </p>
+          </div>
+
+          <div class="interest-item">
+            <div class="interest-icon">
+              <i class="fas fa-users"></i>
+            </div>
+            <h4 class="interest-title">Tech Community</h4>
+            <p class="interest-description">
+              Building and supporting inclusive tech communities, especially
+              empowering women and underrepresented groups in STEM fields.
+            </p>
+          </div>
+
+          <div class="interest-item">
+            <div class="interest-icon">
+              <i class="fas fa-lightbulb"></i>
+            </div>
+            <h4 class="interest-title">Innovation</h4>
+            <p class="interest-description">
+              Staying current with emerging technologies and trends, always
+              looking for innovative solutions to improve user experiences.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="section">
+        <div class="section-header">
+          <p class="small-heading">Get In Touch</p>
+          <h2 class="heading">Contact Me</h2>
+          <p class="section-description">
+            Impressed with my work & skills? Want to work with me? You can reach
+            out to me through the form below or connect with me on social media.
+          </p>
+        </div>
+
+        <div class="contact-content">
+          <div class="contact-grid">
+            <div class="contact-info">
+              <div class="contact-item">
+                <a
+                  href="mailto:kongoeuticus@gmail.com"
+                  class="contact-icon"
+                >
+                  <i class="fas fa-envelope"></i>
+                </a>
+                <div class="contact-details">
+                  <h4>Email</h4>
+                  <a
+                    href="mailto:kongoeuticus@gmail.com"
+                    class="contact-link"
+                  >
+                    kongoeuticus@gmail.com
+                  </a>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <a
+                  href="https://www.linkedin.com/in/kong-o-euticus-448b702a5/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="contact-icon"
+                >
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <div class="contact-details">
+                  <h4>LinkedIn</h4>
+                  <a
+                    href="https://www.linkedin.com/in/kong-o-euticus-448b702a5/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="contact-link"
+                  >
+                    kong'o Euticus
+                  </a>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <a
+                  href="https://github.com/yuti136"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="contact-icon"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+                <div class="contact-details">
+                  <h4>GitHub</h4>
+                  <a
+                    href="https://github.com/yuti136"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="contact-link"
+                  >
+                    yuti136
+                  </a>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <a
+                  href="https://x.com/euticus_kong"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="contact-icon"
+                >
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <div class="contact-details">
+                  <h4>Twitter</h4>
+                  <a
+                    href="https://x.com/euticus_kong"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="contact-link"
+                  >
+                    euticus_kong
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-form">
+              <h3 style="margin-bottom: 1.5rem; color: var(--text-primary)">
+                Send me a message
+              </h3>
+              <form
+                action="mailto:oreoluwaajayyiruth@gmail.com"
+                method="post"
+                enctype="text/plain"
+              >
+                <div class="form-group">
+                  <label for="name">Full Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="form-control"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="form-control"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="subject">Subject</label>
+                  <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    class="form-control"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    class="form-control"
+                    required
+                  ></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
